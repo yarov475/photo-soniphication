@@ -6,19 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src = sound.js></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Document</title>
+    <title>Озвучивание фото</title>
   </head>
   <body>
-    <h1>Data Selfie App</h1>
+
+  <div class="container">
+    <h1>Озвучивание фото</h1>
+
     <div><a href="/">enter</a> | <a href="/logs">list</a></div>
     <p>
       latitude: <span id="latitude"></span>&deg;<br />
       longitude: <span id="longitude"></span>&deg;
     </p>
     <label for="mood">enter your mood</label>
-    <input id="mood" value="rainbow" />
+    <input id="mood"  />
     <button id="submit">submit</button>
+         </div>
+
+  <aside id="aside"></aside>
+   <div id="scetch-holder"></div>
     <script src="sketch.js"></script>
+
+
+
   </body>
 </html>
